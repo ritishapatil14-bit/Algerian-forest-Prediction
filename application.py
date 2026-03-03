@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from flask import Flask,request,jsonify,render_template
 from sklearn.preprocessing import StandardScaler
-import pickle
+import pickle 
 
 application=Flask(__name__)
 app=application
